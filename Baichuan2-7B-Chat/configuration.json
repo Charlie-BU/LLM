@@ -1,0 +1,11 @@
+{
+    "framework": "pytorch",
+    "task": "text-generation",
+    "model": {
+        "type": "Baichuan2-7B-Chat"
+    },
+    "pipeline": {
+        "type": "Baichuan2-7B-chatbot-pipe"
+    },
+    "allow_remote": true
+}
